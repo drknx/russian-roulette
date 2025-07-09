@@ -44,8 +44,7 @@ def roulette():
         root.update()
         time.sleep(random.randint(1,3))
         player = 1 - player
-
-# thank you some random person for this code logic
+        
 def restart_game():
     global hammer
     hammer = random.randint(mag, bullet)
